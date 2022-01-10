@@ -327,8 +327,8 @@ hr {
 .tm-about {
   background: url('../images/me.png');
   opacity: 0.98;
-  background-size: fill; 
-  /* cover; */
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
