@@ -412,7 +412,7 @@ input { height: 50px; }
   .templatemo-home {
     /* background-attachment: scroll; */
     /* opacity: 0.98; */
-    /* background-size: cover; */
+    background-size: cover;
     background-attachment: fixed;
     /* background-position: center center; */
   }
