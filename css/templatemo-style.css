@@ -325,7 +325,7 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.png');
+  background: url('../images/me.png');
   opacity: 0.98;
   background-size: cover;
   background-attachment: fixed;
@@ -410,11 +410,15 @@ input { height: 50px; }
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
-    /* background-attachment: scroll; */
-    /* opacity: 0.98; */
+    background-attachment: scroll;
+  }
+  .tm-about {
+    opacity: 0.98;
     background-size: cover;
     background-attachment: fixed;
-    /* background-position: center center; */
+    background-position: center center;
+    padding-top: 60px;
+    padding-bottom: 100px;
   }
 }
 
