@@ -1,0 +1,27 @@
+Google Colab
+Jupyter-Lab/Notebook
+GitHub
+Bitbucket
+SQL/MySQL/PostgreSQL
+Visual Studio
+Visual Studio Code
+Sublime
+Notepad++
+Office (Excel, Word, Outlook, PowerPoint)
+PyCharm, Webstorm, Rider (JetBrains Suite)
+CommandLine/Terminal
+WebStorm
+D365
+ReactJS
+Android Studio
+Swift
+Java
+Power BI
+Microsoft Access
+MySQL Workbench
+TradingView
+MQL4/5
+ThinkScript
+Pine Script
+Azure
+Dynamics 365
