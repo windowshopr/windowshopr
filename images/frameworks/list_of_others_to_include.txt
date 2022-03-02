@@ -1,3 +1,11 @@
+Programming Languages
+C#
+C
+Swift
+MQL4/5
+ThinkScript
+Pine Script
+
 Google Colab
 Jupyter-Lab/Notebook
 GitHub
@@ -14,14 +22,9 @@ WebStorm
 D365
 ReactJS
 Android Studio
-Swift
-Java
 Power BI
 Microsoft Access
 MySQL Workbench
 TradingView
-MQL4/5
-ThinkScript
-Pine Script
 Azure
 Dynamics 365
