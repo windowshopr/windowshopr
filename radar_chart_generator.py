@@ -256,32 +256,32 @@ from pandas import DataFrame
 
 
 
-# # Data Science
-# data = {"r": [3, 3, 3, 3, 3, 3, 3],
-#         "theta": ['Pandas', 'Numpy', 'SciPy', 'Genetic Algorithms', 'EDA', 'Visualization', 'Feature Engineering/Selection']}
+# Data Science
+data = {"r": [3, 3, 3, 3, 3, 3, 3],
+        "theta": ['Pandas', 'Numpy', 'SciPy', 'Genetic Algorithms', 'EDA', 'Visualization', 'Feature Eng./Sel.']}
 
-# df = DataFrame(data)
-# fig = px.line_polar(df, r='r', theta='theta', line_close=True, markers=True, range_r=(0,3))
-# fig.update_traces(fill='toself', fillcolor='pink', opacity=0.5)
+df = DataFrame(data)
+fig = px.line_polar(df, r='r', theta='theta', line_close=True, markers=True, range_r=(0,3))
+fig.update_traces(fill='toself', fillcolor='pink', opacity=0.5)
 
-# fig.update_layout(
-#     font=dict(
-#         family="Calibri",
-#         size=24,  # Set the font size here
-#         color="Black",
-#     ),
-#     title={
-#         'text': "Data Science",
-#         'y':0.6,
-#         'x':0.5,
-#         'xanchor': 'center',
-#         'yanchor': 'top'}
-# )
+fig.update_layout(
+    font=dict(
+        family="Calibri",
+        size=24,  # Set the font size here
+        color="Black",
+    ),
+    title={
+        'text': "Data Science",
+        'y':0.6,
+        'x':0.5,
+        'xanchor': 'center',
+        'yanchor': 'top'}
+)
 
-# fig.layout.polar.radialaxis.tickvals = [0,1,2,3]
+fig.layout.polar.radialaxis.tickvals = [0,1,2,3]
 
-# fig.write_html("graphs/data_science.html")
-# fig.show()
+fig.write_html("graphs/data_science.html")
+fig.show()
 
 
 
