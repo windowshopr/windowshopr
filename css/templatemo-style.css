@@ -144,7 +144,7 @@ hr {
   border-radius: 2px;
   text-align: center;
   padding: 20px 20px 20px 20px;
-  min-height: 500px;
+  /* min-height: 500px; */
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
